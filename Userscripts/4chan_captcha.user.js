@@ -50,6 +50,21 @@
 		else {
 			// Listen for captcha
 			window.addEventListener("message", on_4chan_message, false);
+
+			// Find the iframe (not used for anything though)
+			var iframes = document.querySelectorAll("iframe"),
+				iframe = null,
+				i;
+			for (i = 0; i < iframes.length; ++i) {
+				if ((iframes[i].getAttribute("src") || "").indexOf("google") >= 0) {
+					iframe = iframes[i];
+					break;
+				}
+			}
+
+			if (iframe) {
+				iframe.setAttribute("id", "captchaContainerNoScript");
+			}
 		}
 	};
 
