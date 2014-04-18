@@ -1,6 +1,6 @@
 # [4chan NoScript Captcha](https://github.com/dnsev/misc/raw/master/Userscripts/4chan_captcha.user.js)
-Copy-pastes the captcha for you
+Copy-pastes the captcha for you, temporary solution only
 Thanks ~~moot~~ google
 [Source](https://github.com/dnsev/misc/blob/master/Userscripts/4chan_captcha.user.js)
 
-Works on Firefox + Greasemonkey
+Works on Firefox + Greasemonkey + Vanilla 4chan (top posting form only)
