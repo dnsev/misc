@@ -9,6 +9,8 @@
 // @version     1.0
 // @grant       none
 // @run-at      document-start
+// @updateURL   https://github.com/dnsev/misc/raw/master/Userscripts/4chan_captcha.user.js
+// @downloadURL https://github.com/dnsev/misc/raw/master/Userscripts/4chan_captcha.user.js
 // ==/UserScript==
 
 (function () {
