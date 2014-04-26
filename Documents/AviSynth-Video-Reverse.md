@@ -53,7 +53,7 @@ Frame numbers can be located by opening your video in MPC-HC and pressing CTRL+G
 
 >Frame: ```67, 23.976```
 
-You want the first number (67 here).
+You want the first number (67 here.)
 
 (In MPC-HC, you can use CTRL+Left/Right Arrow to seek frame-by-frame.)
 
